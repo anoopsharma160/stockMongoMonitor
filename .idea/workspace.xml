@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10f1c5ab-57dc-4b4a-867e-f4a4e69f1806" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ElasticSearchSupport/ElasticSearchDataPush.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NSEData/JSONReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NSEData/NseChartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NSEExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestExecutionClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/BNOCData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/IncPriIncOITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/IndexOptionDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/NSeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/ChartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/ChartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/DBController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/DBController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/MoneyControllerScrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/MoneyControllerScrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/ChartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/ChartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/DBController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/DBController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/MoneyControllerScrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UI/MoneyControllerScrapper.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,107 +36,109 @@
     <session id="1898441374">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="6" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.3" value="5" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3491" />
-          <entry key="xml" value="8" />
+          <entry key="java" value="6440" />
+          <entry key="xml" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3491" />
-          <entry key="XML" value="8" />
+          <entry key="JAVA" value="6440" />
+          <entry key="XML" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="7" />
+          <entry key="java" value="37" />
+          <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="37" />
+          <entry key="XML" value="9" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.create.new" value="1" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/UI/MoneyControllerScrapper.java">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            <state relative-caret-position="120">
+              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TestExecutionClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
-                <element signature="e#321#329#0" expanded="true" />
-                <element signature="e#393#407#0" expanded="true" />
-                <element signature="e#858#866#0" expanded="true" />
-                <element signature="e#1785#1814#0" expanded="true" />
-                <element signature="e#1969#1985#0" expanded="true" />
+                <element signature="e#77#78#0" expanded="true" />
+                <element signature="e#98#99#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Model/StockModel.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="485">
+              <caret line="112" column="26" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/IncPriIncOITest.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Controller/DBController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/NSeData.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/BNOCData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/IndexOptionDataTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="85" lean-forward="true" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.6.4/mongo-java-driver-3.6.4-sources.jar!/org/bson/Document.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.6.4/mongo-java-driver-3.6.4.jar!/org/bson/Document.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Controller/ChartController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.6.4/mongo-java-driver-3.6.4-sources.jar!/com/mongodb/client/FindIterable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="114" column="26" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="26" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -133,10 +155,20 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>acc</find>
+      <find>sl</find>
+      <find>-</find>
+      <find>testng</find>
+      <find>sure</find>
+      <find>compile</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -151,10 +183,28 @@
         <option value="$PROJECT_DIR$/src/main/java/UI/Model/StockModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/Model/StockModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/Controller/MongoClient.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Controller/ChartController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Controller/DBController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NSEData/ChartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NSEData/NseChart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NSEData/NseChartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NSEData/JSONReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NSEExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/UI/MoneyControllerScrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controller/ChartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Executor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controller/DBController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ElasticSearchSupport/ElasticSearchDataPush.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TetsNG/IncPriIncOIExecutor.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/TetsNG/NSeData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TetsNG/IncPriIncOITest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TetsNG/IndexOptionDataTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TetsNG/BNOCData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestExecutionClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/BNOCData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/IndexOptionDataTest.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
       </list>
     </option>
   </component>
@@ -176,7 +226,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,33 +258,49 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stockTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="stockTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stockTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stockTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stockTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stockTest" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541670916044" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543855479712" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+      <recent name="TetsNG" />
+      <recent name="NSEData" />
       <recent name="Model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -249,56 +315,105 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DBController">
-    <configuration name="ChartController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Controller.ChartController" />
+  <component name="RunManager" selected="TestNG.BNOCData (1)">
+    <configuration name="BNOCData (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="stockTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Controller.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BNOCData" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DBController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Controller.DBController" />
+    <configuration name="BNOCData" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="stockTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Controller.*" />
+          <option name="PATTERN" value="TetsNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="TetsNG" />
+      <option name="MAIN_CLASS_NAME" value="TetsNG.BNOCData" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoneyControllerScrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UI.MoneyControllerScrapper" />
+    <configuration name="BNOCData.callNseData" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="stockTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UI.*" />
+          <option name="PATTERN" value="TetsNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="TetsNG" />
+      <option name="MAIN_CLASS_NAME" value="TetsNG.BNOCData" />
+      <option name="METHOD_NAME" value="callNseData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IncPriIncOITest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="stockTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TetsNG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TetsNG" />
+      <option name="MAIN_CLASS_NAME" value="TetsNG.IncPriIncOITest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IncPriIncOITest.callIncPriIncOi" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="stockTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TetsNG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TetsNG" />
+      <option name="MAIN_CLASS_NAME" value="TetsNG.IncPriIncOITest" />
+      <option name="METHOD_NAME" value="callIncPriIncOi" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MoneyControllerScrapper" />
-      <item itemvalue="Application.DBController" />
-      <item itemvalue="Application.ChartController" />
+      <item itemvalue="TestNG.IncPriIncOITest" />
+      <item itemvalue="TestNG.BNOCData.callNseData" />
+      <item itemvalue="TestNG.BNOCData" />
+      <item itemvalue="TestNG.IncPriIncOITest.callIncPriIncOi" />
+      <item itemvalue="TestNG.BNOCData (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DBController" />
-        <item itemvalue="Application.ChartController" />
-        <item itemvalue="Application.MoneyControllerScrapper" />
+        <item itemvalue="TestNG.BNOCData (1)" />
+        <item itemvalue="TestNG.BNOCData" />
+        <item itemvalue="TestNG.IncPriIncOITest" />
+        <item itemvalue="TestNG.IncPriIncOITest.callIncPriIncOi" />
+        <item itemvalue="TestNG.BNOCData.callNseData" />
       </list>
     </recent_temporary>
   </component>
@@ -315,36 +430,76 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="NSeData - 2018.11.13 at 09h 50m 26s.xml">
+      <configuration name="NSeData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NSeData - 2018.11.13 at 09h 50m 47s.xml">
+      <configuration name="NSeData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NSeData - 2018.11.13 at 09h 52m 07s.xml">
+      <configuration name="NSeData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NSeData_callIncPriIncOi - 2018.11.13 at 10h 00m 36s.xml">
+      <configuration name="NSeData.callIncPriIncOi" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NSeData_callIncPriIncOi_(1) - 2018.11.13 at 10h 09m 43s.xml">
+      <configuration name="NSeData.callIncPriIncOi (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NSeData_callIncPriIncOi_(2) - 2018.11.13 at 10h 15m 11s.xml">
+      <configuration name="NSeData.callIncPriIncOi (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NSeData - 2018.11.13 at 10h 36m 25s.xml">
+      <configuration name="NSeData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="IndexOptionDataTest_callIndexData - 2018.11.21 at 08h 40m 46s.xml">
+      <configuration name="IndexOptionDataTest.callIndexData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="IncPriIncOITest - 2018.11.29 at 09h 06m 07s.xml">
+      <configuration name="IncPriIncOITest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BNOCData - 2018.12.03 at 09h 49m 47s.xml">
+      <configuration name="BNOCData" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33441034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.329927" />
-      <window_info anchor="bottom" id="Terminal" weight="0.329927" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.329927" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.329927" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.329927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -355,7 +510,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Controller/DBController.java</url>
-          <line>19</line>
+          <line>21</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -363,37 +518,11 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/UI/Model/StockModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/StockModel.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/Model/StockModel.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.6.4/mongo-java-driver-3.6.4.jar!/com/mongodb/BasicDBObject.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#3303#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.6.4/mongo-java-driver-3.6.4-sources.jar!/org/bson/Document.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -404,6 +533,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.6.4/mongo-java-driver-3.6.4-sources.jar!/org/bson/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="67" column="38" lean-forward="true" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.6.4/mongo-java-driver-3.6.4-sources.jar!/com/mongodb/client/MongoCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="649" column="9" selection-start-line="649" selection-start-column="9" selection-end-line="649" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NSEData/ChartController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/StockModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/DBController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="38" column="2" lean-forward="true" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NSEExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/ChartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NSEData/JSONReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="50" column="53" lean-forward="true" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NSEData/NseChartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.6.4/mongo-java-driver-3.6.4-sources.jar!/com/mongodb/client/FindIterable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -411,37 +614,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/ChartController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ElasticSearchSupport/ElasticSearchDataPush.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/DBController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="85" lean-forward="true" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="260">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UI/MoneyControllerScrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="66">
           <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TetsNG/NSeData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TetsNG/IncPriIncOITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TetsNG/IndexOptionDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestExecutionClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
-            <element signature="e#321#329#0" expanded="true" />
-            <element signature="e#393#407#0" expanded="true" />
-            <element signature="e#858#866#0" expanded="true" />
-            <element signature="e#1785#1814#0" expanded="true" />
-            <element signature="e#1969#1985#0" expanded="true" />
+            <element signature="e#77#78#0" expanded="true" />
+            <element signature="e#98#99#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="112" column="26" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TetsNG/BNOCData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/IncPriIncOITest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/NSeData.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/BNOCData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/IndexOptionDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
         </state>
       </provider>
     </entry>

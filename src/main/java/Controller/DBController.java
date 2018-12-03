@@ -9,13 +9,15 @@ import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
 
 import java.io.IOException;
+import java.text.ParseException;
 import java.util.Map;
 
 public class DBController {
-    public static void main(String[] args) throws IOException, InterruptedException {
+
+    public void execute() throws IOException, InterruptedException, ParseException {
 
             MongoClient mongoClient = new MongoClient("localhost");
-        MongoDatabase db=mongoClient.getDatabase("test");
+            MongoDatabase db = mongoClient.getDatabase("test");
 //            DB db = mongoClient.getDB("test");
             MongoCollection<Document> dbCollection = db.getCollection("stockTest");
 
@@ -25,11 +27,11 @@ public class DBController {
                 Map<String, String> internalMap = map.get(key);
                 System.out.println(internalMap);
                 internalMap.put("timestamp", String.valueOf(System.currentTimeMillis()));
-                BasicDBObject basicDBObject= new BasicDBObject();
+                BasicDBObject basicDBObject = new BasicDBObject();
                 basicDBObject.putAll(internalMap);
 //                dbCollection.insertOne(basicDBObject);
 
-                Document document= new Document();
+                Document document = new Document();
                 document.putAll(internalMap);
                 dbCollection.insertOne(document);
             }
@@ -40,16 +42,16 @@ public class DBController {
 //                System.out.println(cursorDocMap.next());
 //            }
 
-        MongoCursor<Document> mongoCursor=dbCollection.find().iterator();
+            MongoCursor<Document> mongoCursor = dbCollection.find().iterator();
 //2 Clear the Chart Collection before adding new data to it
-        new ChartController().clearCollection(db);
+            new ChartController().clearCollection(db);
 
 // 3 Create second Collection with last 3 data points
-        for (String symbolName:map.keySet()){
-            new ChartController().insertDatainCollection(symbolName,db);
+            for (String symbolName : map.keySet()) {
+                new ChartController().insertDatainCollection(symbolName, db);
 
+            }
+            mongoClient.close();
         }
-mongoClient.close();
-        }
+    }
 
-}
