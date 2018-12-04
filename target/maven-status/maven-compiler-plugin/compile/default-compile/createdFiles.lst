@@ -2,9 +2,11 @@ ExecutorServicePackage/StockExecutor$2.class
 ExecutorServicePackage/StockExecutor.class
 IndexNSELive/NSEBankNiftyFetcher.class
 ExecutorServicePackage/StockExecutor$1.class
+ExecutorServicePackage/StockExecutor$3.class
 IndexNSELive/NSEBNDController.class
 MoneyControlDataFetcher/DBController.class
 IndexNSELive/ChartControllerIndex.class
 MoneyControlDataFetcher/MoneyControllerScrapper.class
+ExecutorServicePackage/StockExecutor$4.class
 MoneyControlDataFetcher/ChartController.class
 ElasticSearch/ElasticSearchUtil.class
