@@ -1,6 +1,6 @@
-package Controller;
+package MoneyControlDataFetcher;
 
-import com.mongodb.*;
+import ElasticSearch.ElasticSearchUtil;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
@@ -8,16 +8,14 @@ import com.mongodb.client.model.Filters;
 import com.mongodb.client.model.Sorts;
 import org.bson.Document;
 
-import javax.print.Doc;
-import java.net.UnknownHostException;
+import java.io.IOException;
 import java.text.DecimalFormat;
-import java.text.NumberFormat;
 import java.text.ParseException;
 
 public class ChartController {
 
 
-    void insertDatainCollection(String SymbolName, MongoDatabase db) throws ParseException {
+    void insertDatainCollection(String SymbolName, MongoDatabase db) throws ParseException, IOException {
 
         MongoCollection<Document> dbCollection = db.getCollection("stockTest");
 
@@ -30,6 +28,15 @@ public class ChartController {
 //        System.out.println(dbCursor.next().get(""));
 
 //        Document document = dbCollection.find(Filters.eq("Symbol", SymbolName)).first();
+MongoCursor<Document> firstDocMongoCursor=dbCollection.find(Filters.eq("Symbol",SymbolName))
+        .sort(Sorts.ascending("timestamp"))
+        .limit(1)
+        .iterator();
+Document firstDoc = null;
+while (firstDocMongoCursor.hasNext()) {
+    firstDoc = firstDocMongoCursor.next();
+}
+
 
         MongoCursor<Document> mongoCursor = dbCollection.find(Filters.eq("Symbol", SymbolName))
                 .sort(Sorts.descending("timestamp"))
@@ -40,7 +47,6 @@ public class ChartController {
 
         int count = 0;
         while (mongoCursor.hasNext()) {
-
 
 //            System.out.println(mongoCursor.next());
             Document internalDoc = mongoCursor.next();
@@ -59,6 +65,23 @@ public class ChartController {
         doubleValue=0.0;
     }
     newDoc.append("VOL CHG %", doubleValue);
+
+// Adding first row data below
+
+
+                newDoc.append("First Price CHG %", Double.valueOf(firstDoc.get("Chg %","0.0")));
+                newDoc.append("First OI CHG %", Double.valueOf(firstDoc.get("Increase %","0.0")));
+
+
+                volChangeString=firstDoc.getString("% Change");
+                 numberFormat= (DecimalFormat) DecimalFormat.getInstance();
+                try{
+                    doubleValue=numberFormat.parse(volChangeString).doubleValue();}
+                catch (NullPointerException e){
+                    doubleValue=0.0;
+                }
+                newDoc.append("First VOL CHG %", doubleValue);
+                firstDoc.clear();
 
             } else {
 
@@ -79,13 +102,13 @@ public class ChartController {
             }
                 count++;
 
-
-
-
         }
 
         MongoCollection<Document> chartCollection = db.getCollection("chartCollection");
         chartCollection.insertOne(newDoc);
+        newDoc.remove("_id");
+new ElasticSearchUtil().putData((newDoc.toJson()),"incpriincoi");
+newDoc.clear();
 
     }
 

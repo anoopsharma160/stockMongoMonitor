@@ -1,8 +1,8 @@
-package Controller;
+package MoneyControlDataFetcher;
 
-import UI.MoneyControllerScrapper;
-import com.mongodb.*;
-import com.mongodb.client.FindIterable;
+import ElasticSearch.ElasticSearchUtil;
+import com.mongodb.BasicDBObject;
+import com.mongodb.MongoClient;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
@@ -14,8 +14,8 @@ import java.util.Map;
 
 public class DBController {
 
-    public void execute() throws IOException, InterruptedException, ParseException {
-
+    public void execute(int sleepTime) throws IOException, InterruptedException, ParseException {
+Thread.sleep(sleepTime*1000);
             MongoClient mongoClient = new MongoClient("localhost");
             MongoDatabase db = mongoClient.getDatabase("test");
 //            DB db = mongoClient.getDB("test");
@@ -46,11 +46,16 @@ public class DBController {
 //2 Clear the Chart Collection before adding new data to it
             new ChartController().clearCollection(db);
 
+
+    new ElasticSearchUtil().clearElastChartData("incpriincoi");
+
+
 // 3 Create second Collection with last 3 data points
             for (String symbolName : map.keySet()) {
                 new ChartController().insertDatainCollection(symbolName, db);
 
             }
+            map.clear();
             mongoClient.close();
         }
     }
