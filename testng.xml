@@ -1,13 +1,13 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="TestNGXMLTest Test Suite" guice-stage="DEVELOPMENT" parallel="classes">
-    <test thread-count="1" name="TestNGXMLTest Test" verbose="2">
+<suite name="###  JIO_PAYMENTS_BANK_AUTOMATION : SIT  ###" parallel="classes" thread-count="2">
+
+
+    <test name="Test">
         <classes>
-            <class name="test.BNOCData">
-            </class>
-            <class name="test.IncPriIncOITest"></class>
+            <class name="BNOCData"/>
+            <class name="IncPriIncOITest"/>
         </classes>
     </test>
 
 </suite>
+
